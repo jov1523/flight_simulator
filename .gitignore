@@ -1,0 +1,18 @@
+# Build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.exe
+
+# IDE metadata
+.idea/
+.vscode/
+
+# Downloaded SDK archives and extracted trees
+# (the headers in GL/ and the libraries in the project root are what the build uses)
+*.zip
+glew-extracted/
+freeglut-extracted/
